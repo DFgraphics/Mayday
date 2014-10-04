@@ -36,7 +36,7 @@
 
 
 #Meph' item tileset - http://www.bay12forums.com/smf/index.php?topic=139579
-[TILESET:Vanilla DF - 16x - Items.png:Vanilla DF - 16x - Items.png] 
+[TILESET:Vanilla DF - 24x - Items.png:Vanilla DF - 24x - Items.png] 
 
 [OVERRIDE:47:I:AMMO:AMMO:0:2:0]
 [OVERRIDE:47:I:AMMO:AMMO:1:2:1]
