@@ -51,7 +51,7 @@ Change this to YES to output the reasons for world map rejection into a file.
 
 Change these numbers to make the embark rectangle start at a different size.  The format is (EMBARK_RECTANGLE:<width>:<height>).  Numbers may run from 2 to 16.  The map size warning message will go by these numbers.
 
-[EMBARK_RECTANGLE:3:3]
+[EMBARK_RECTANGLE:4:4]
 
 Change these numbers to set the default weights for traffic designations.  If you make the last numbers too large, pathfinding might lag.
 The format is (PATH_COST:<high>:<normal>:<low>:<restricted>).
@@ -241,12 +241,12 @@ You can have your dwarves start/arrive without any labor types enabled here by s
 
 You can set the maximum population of your fortress here.  Keep in mind that your population must be at least 80 to get a king and 100 to obtain the current game features.  The strict cap also stops fort births.  Both caps can be violated by a few special cases, like the arrival of the monarch if you qualify.
 
-[POPULATION_CAP:120]
+[POPULATION_CAP:200]
 [STRICT_POPULATION_CAP:220]
 
 This allows you to control the number of babies+children in your fortress.  The first number is an absolute cap on the number of babies+children.  The second is a percentage of the current number of adults in your fortress (the default is the essentially meaningless 1000% here).  The lower number is used as the cap.  The cap only prevents further pregnancies, so migrant children, multiple births and existing pregnancies from old saves can still push you over the cap.  Setting either number to zero will disallow pregnancies in the fortress.
 
-[BABY_CHILD_CAP:10:20]
+[BABY_CHILD_CAP:100:1000]
 
 You can set the maximum number of visitors to your fort here.  This does not include merchants, diplomats, animals or invaders, but only those either dropping by for a temporary visit to a tavern, library or temple, or those seeking permanent employment.  Once you accept a petition from a visitor to stay at your fort, they no longer count against the cap, even if they never become a full citizen.
 
@@ -268,7 +268,7 @@ If you don't like the ,.`' ground, try setting this to NO.  The ground will turn
 
 If you'd like your engravings to start off looking the same (you can toggle them on individual later), set this to YES.
 
-[ENGRAVINGS_START_OBSCURED:YES]
+[ENGRAVINGS_START_OBSCURED:NO]
 
 If you get annoyed by seeing items like *<*sword*>* you can
 get rid of the outside ** by setting this to NO.
