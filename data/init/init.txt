@@ -27,7 +27,7 @@ If set below 256x256 it specifies the grid size instead, with a minimum of 80x25
 
 [WINDOWEDX:80]
 [WINDOWEDY:25]
-[FONT:mayday-no-highlight.png]
+[FONT:text_12x16.png]
 
 You may disable window resizing if you wish.
 [RESIZABLE:YES]
@@ -36,14 +36,14 @@ Full screen info.  The 0s below mean that the game will choose a resolution for 
 
 [FULLSCREENX:0]
 [FULLSCREENY:0]
-[FULLFONT:mayday-no-highlight.png]
+[FULLFONT:text_12x16.png]
 
 If this is set to NO, tiles will be stretched to fit the screen if there is a resolution mismatch.
 If this is set to YES, the tiles will not be stretched, but rather the game view will be centralized, surrounded by black space.  Tiles that are too large will always be compressed rather than running off the screen.
 
 [BLACK_SPACE:YES]
 
-Graphics info, most of it as above.  Set GRAPHICS to YES to turn it all on.  This will use the "raw/graphics" folder for tile information.  Currently this is limited to whatever creature graphics you have downloaded.  The game comes with a few pictures to demonstrate.  As of July 2016, the Dwarf Fortress Wiki has custom tilesets available at http://dwarffortresswiki.org/index.php/Tileset_repository and creature graphics at http://dwarffortresswiki.org/index.php/Graphics_set_repository.
+Graphics info, most of it as above.  Set GRAPHICS to YES to turn it all on.  This will use the "raw/graphics" folder for tile information.  Currently this is limited to whatever creature graphics you have downloaded.  The game comes with a few pictures to demonstrate.  As of November 2017, the Dwarf Fortress Wiki has custom tilesets available at http://dwarffortresswiki.org/index.php/Tileset_repository and creature graphics at http://dwarffortresswiki.org/index.php/Graphics_set_repository.
 
 [GRAPHICS:YES]
 [GRAPHICS_WINDOWEDX:0]
