@@ -1,8 +1,9 @@
 {
-    "author": "Mike Mayday",
-    "content_version": "",
+    "author": "Mayday, Tallcastle, Habbadax",
+    "url": "http://www.bay12forums.com/smf/index.php?topic=137370.999999",
+    "content_version": "https://github.com/DFgraphics/Mayday 2017-12-07",
     "df_min_version": "0.42.05",
-    "title": "Mayday 16px",
     "folder_prefix": "Mayday",
-    "tooltip": "Mike Mayday made one of the first graphics packs for DF.\nMany people still enjoy his distinctive art style."
+    "title": "Mayday 16x",
+    "tooltip": "Simple, clean, fun, and easy on the eyes."
 }
