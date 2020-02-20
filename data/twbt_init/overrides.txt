@@ -129,4 +129,8 @@
 [OVERRIDE:47:I:WEAPON:WEAPON:22:2:78]
 [OVERRIDE:47:I:WEAPON:WEAPON:23:2:79]
 
-#[OVERRIDE:145:I:TOY:TOY:0+n:2:tilenumber]
+[TILESET:_jecoverides.png:_jecoverides.png]
+[OVERRIDE:145:I:TOY:TOY:0:3:0] - toy (all types?)
+[OVERRIDE:144:I:TOOL:TOOL:ITEM_TOOL_ALTAR:3:7] - altar
+[OVERRIDE:144:B:91:OfferingPlace::3:7] - altar
+[OVERRIDE:8:I:TOOL:TOOL:ITEM_TOOL_DIE:3:1] - die
