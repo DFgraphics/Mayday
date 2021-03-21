@@ -80,7 +80,6 @@ To install all the TWBT content,
  * Copy the contents of the /data/twbt\_init/ folder to the /data/init/.
  * Copy the contents of the /raw/twbt\_graphics/ folder to the /raw/graphics/.
  * Copy the contents of the /raw/twbt\_objects/ folder to the /raw/objects/.
- * Copy the "onLoad\_gfx\_Mayday.init" file into the /raw/ folder.
 
 
 2.1.2 - Installing only the Transparent Backgrounds for Creature Graphics TWBT content:  
