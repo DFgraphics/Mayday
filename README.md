@@ -3,24 +3,19 @@
 http://www.bay12forums.com/smf/index.php?topic=137370.0
 
 ________________________________________
-________________________________________
-Index:
- * 1.0 - System Requirements
- * 2.0 - Installation
- * * 2.1 - Dfhack with TWBT
- * 3.0 - Screenshots
- * 4.0 - Credits
- * 5.0 - Patreon/Donations:
-________________________________________
-________________________________________
-
-
-
+Index
+ 1. System Requirements
+ 2. Installation  
+    2.1. Dfhack with TWBT
+ 3. Screenshots
+ 4. Credits
+ 5. Patreon/Donations
 
 
 ________________________________________
-1.0 - System Requirements:
-________________________________________
+
+### 1. System Requirements
+
 This graphics pack requires the "SDL Windows", Mac, or Linux version of Dwarf Fortress.
 
 Additionally, the main tilesets (located in the /data/art/ folder) need one of the above 
@@ -46,8 +41,7 @@ the game window, which will cause the pixels to be drawn at a scaled-down size t
 
 
 ________________________________________
-2.0 - Installation:
-________________________________________
+### 2. Installation
  * Copy the contents of the /data/art/ folder into Dwarf Fortress' /data/art/ folder.
  * Copy the contents of the /data/init/ folder into Dwarf Fortress' /data/init/ folder.
  * Copy the contents of the /raw/objects/ folder into Dwarf Fortress' /raw/objects/ folder.
@@ -63,8 +57,7 @@ ________________________________________
 
 
 ________________________________________
-2.1 - DFHack with TWBT:
-________________________________________
+#### 2.1 DFHack with TWBT
 The Text Will Be Text (TWBT) plugin for DFHack allows many improvements to graphics.
 This pack includes optional components to take advantage of TWBT features.
 If you wish to use these components, additional steps need to be taken.
@@ -73,8 +66,7 @@ pack components so that the TWBT content overwrites the regular graphics pack co
 It's probably easiest to install the TWBT content into the normal graphics pack folders 
 before then copying those all into your copy of Dwarf Fortress.
 
-2.1.1 - Installing all the TWBT content:  
-To install all the TWBT content, 
+##### 2.1.1 Installing all the TWBT content
 
  * Copy the contents of the /data/twbt\_art/ folder to the /data/art/.
  * Copy the contents of the /data/twbt\_init/ folder to the /data/init/.
@@ -82,7 +74,7 @@ To install all the TWBT content,
  * Copy the contents of the /raw/twbt\_objects/ folder to the /raw/objects/.
 
 
-2.1.2 - Installing only the Transparent Backgrounds for Creature Graphics TWBT content:  
+##### 2.1.2 Installing only the Transparent Backgrounds for Creature Graphics TWBT content 
 To get creature graphics with transparent backgrounds,
 
 Copy the contents of the /raw/twbt\_graphics/ folder to the /raw/graphics/.
@@ -93,7 +85,7 @@ files you wish to have creature graphics with transparent backgrounds.)
 Edit the non-TWBT /data/init/init.txt file to set the print mode to "TWBT".
 
 
-2.1.3 - Installing only the Transparent Backgrounds for non-creatures TWBT content:  
+##### 2.1.3 Installing only the Transparent Backgrounds for non-creatures TWBT content  
 To get some buildings, items, and furniture with transparent backgrounds,
 
  * Copy the contents of the /data/twbt\_art/ folder into the /data/art/.
@@ -101,7 +93,7 @@ To get some buildings, items, and furniture with transparent backgrounds,
  * Edit the non-TWBT /data/init/init.txt file to set the print mode to "TWBT".
 
 
-2.1.4 - Installing only the TWBT text Font:  
+##### 2.1.4 Installing only the TWBT text Font
 To get more readable, space-efficient text,
 
  * Copy the contents of the /data/twbt\_art/ folder into the /data/art/.
@@ -111,14 +103,11 @@ To get more readable, space-efficient text,
 
 
 ________________________________________
-2.0 - Screenshots:
-________________________________________
+### 3. Screenshots
 There's some way to place images here; I'm sure.
 
-
 ________________________________________
-3.0 - Credits:
-________________________________________
+### 4. Credits
 - Mike Mayday (Dwarves)
 - Tocky (original dwarves that Mayday's are based upon)
 - Sphr (most creatures)
@@ -130,8 +119,7 @@ ________________________________________
 
 
 ________________________________________
-4.0 - Patreon/Donations:
-________________________________________
+### 5. Patreon/Donations
 If you really like Dwarf Fortress and/or this tileset and want to help indy developers, 
 consider making a donation to the developers of Dwarf Fortress at bay12games: 
 https://www.patreon.com/bay12games  
